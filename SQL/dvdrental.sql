@@ -2,20 +2,20 @@
 /* For this project, we'll use the dvdrental PostgreSQL sample database.
  * This database contains 15 tables:
  * 
- * actor — contains actors data including first name and last name.
- * film — contains films data such as title, release year, length, rating, etc.
- * film_actor — contains the relationships between films and actors.
- * category — contains film’s categories data.
- * film_category — containing the relationships between films and categories.
- * store — contains the store data including manager staff and address.
- * inventory — stores inventory data.
- * rental — stores rental data.
- * payment — stores customer’s payments.
- * staff — stores staff data.
- * customer — stores customer’s data.
- * address — stores address data for staff and customers
- * city — stores the city names.
- * country — stores the country names.
+ * actor â€” contains actors data including first name and last name.
+ * film â€” contains films data such as title, release year, length, rating, etc.
+ * film_actor â€” contains the relationships between films and actors.
+ * category â€” contains filmâ€™s categories data.
+ * film_category â€” containing the relationships between films and categories.
+ * store â€” contains the store data including manager staff and address.
+ * inventory â€” stores inventory data.
+ * rental â€” stores rental data.
+ * payment â€” stores customerâ€™s payments.
+ * staff â€” stores staff data.
+ * customer â€” stores customerâ€™s data.
+ * address â€” stores address data for staff and customers
+ * city â€” stores the city names.
+ * country â€” stores the country names.
  * 
  * 
  * For this project, suppose that the management wants to see:

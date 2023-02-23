@@ -20,7 +20,7 @@ In this project, I performed a basic exploratory data analysis (EDA) on the fict
 
 The Sakila database is already quite well-known and usually used for learning and practicing SQL skills. The following figure shows the database's schema:
 
-!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/dvd%20schema.png)
+!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/dvd%20schema.png?raw=true)
 
 
 In total, there are 15 tables in the database:
@@ -61,11 +61,11 @@ To answer the questions above, I queried the database using different techniques
 
     1. What are the top rented films and their sales?
 
-!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/1.jpg)
+!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/1.jpg?raw=true)
 
 From the results, although Telegraph Voyage has generated the most revenue, it is not the most rented film. Let's look at the most rented films by ordering by rent_count.
 
-!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/1-2.jpg)
+!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/1-2.jpg?raw=true)
 
 Here we can see that the most rented films generate far less revenue than the others. It might be good to consider recommending an increasing the rental rate for these films to maximize revenue.
 
@@ -75,7 +75,7 @@ Let's try to confirm that by looking at rent count and revenue by genre.
 
     2. How much is the revenue per genre? Which genre sells the best?
 
-!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/2.jpg)
+!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/2.jpg?raw=true)
 
 Sports is the top rented genre and has also generated the most revenue. Comedy, Foreign, and Drama are also within the top 10 and confirms our observation from the previous query. Future investments might be directed towards these genres to ensure ROI.
 
@@ -83,7 +83,7 @@ Now, let's try to get a more business intelligence look and see customer attitud
 
     3. How many rented films are returned early, on time, and late?
 
-!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/3.jpg)
+!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/3.jpg?raw=true)
 
 It seems like customers generally have a positive attitude towards returning rentals since 48.2% return them early. This may be driven by customers who rent films regulary and more frequently than average. It might be fruitful to explore this data point further and look at the possibility of offering a loyalty program for these customers.
 
@@ -91,13 +91,13 @@ Late returns make up 41%, still a sizeable chunk. While penalty fees for late re
 
     4. What does store performance look like?
 
-!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/4.jpg)
+!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/4.jpg?raw=true)
 
 Looks like business is doing well. Both stores in Australia and Canada have similar performance and rent count and revenue.
 
     5. Where are the customers mostly located in?
 
-!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/5.jpg)
+!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/5.jpg?raw=true)
 
 It might be weird for 2 DVD rental stores to have customers scattered all over the globe, but hey, it works for a fictional dataset. :laughing:
 
@@ -105,7 +105,7 @@ A good chunk of customers is located in India and China and accounts for about 2
 
     6. Who are the top customers in each store?
 
-!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/6.jpg)
+!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/6.jpg?raw=true)
 
 Say the company wants to offer rewards to the top 10 customers in each store, we can provide names and emails of these customers so other deparments may start to contact them.
 ## Conclusion

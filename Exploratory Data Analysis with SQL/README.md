@@ -46,7 +46,7 @@ In total, there are 15 tables in the database:
 
 ## Objectives
 
-For this analysis, let us suppose that the Sakila management wants to get a clearer picture on how their business's performance. And as such, they have asked the following questions:
+For this analysis, let us suppose that the Sakila management wants to get a clearer picture on their business's performance. And as such, they have asked the following questions:
 
     1. What are the top rented films and their sales?
     2. How much is the revenue per genre? Which genre sells the best?

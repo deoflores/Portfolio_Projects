@@ -2,20 +2,20 @@
 /* For this project, we'll use the dvdrental PostgreSQL sample database.
  * This database contains 15 tables:
  * 
- * actor â€” contains actors data including first name and last name.
- * film â€” contains films data such as title, release year, length, rating, etc.
- * film_actor â€” contains the relationships between films and actors.
- * category â€” contains filmâ€™s categories data.
- * film_category â€” containing the relationships between films and categories.
- * store â€” contains the store data including manager staff and address.
- * inventory â€” stores inventory data.
- * rental â€” stores rental data.
- * payment â€” stores customerâ€™s payments.
- * staff â€” stores staff data.
- * customer â€” stores customerâ€™s data.
- * address â€” stores address data for staff and customers
- * city â€” stores the city names.
- * country â€” stores the country names.
+ * actor — contains actors data including first name and last name.
+ * film — contains films data such as title, release year, length, rating, etc.
+ * film_actor — contains the relationships between films and actors.
+ * category — contains film’s categories data.
+ * film_category — containing the relationships between films and categories.
+ * store — contains the store data including manager staff and address.
+ * inventory — stores inventory data.
+ * rental — stores rental data.
+ * payment — stores customer’s payments.
+ * staff — stores staff data.
+ * customer — stores customer’s data.
+ * address — stores address data for staff and customers
+ * city — stores the city names.
+ * country — stores the country names.
  * 
  * 
  * For this project, suppose that the management wants to see:
@@ -39,12 +39,7 @@ join film_category fc using(film_id)
 join category c using(category_id)
 join payment p using(rental_id)
 group by 1, 2
-order by 4 desc;
-
-/* Telegraph Voyage has generated the most revenue of $215.75 while just being rented 25 times.
- * Other films have been rented as much as 29 times but with less revenue. Genres of the top rented movies differ greatly
- * but Documentary, Drama, and Comedy seems to sell well.
- */
+order by 3 desc;
 
 --To see which genre sells best, let's look at the total revenue per genre, rent count, and unique renters
 with revenue_per_genre as (
@@ -64,9 +59,10 @@ with revenue_per_genre as (
 select genre
 	, rent_demand
 	, unique_renters
-	, round(rent_demand/unique_renters::numeric, 2) as rent_rate
+	, round(rent_demand/unique_renters::numeric, 2) as ave_rent_recurrence
 	, total_revenue
-from revenue_per_genre;
+from revenue_per_genre
+order by 5 desc;
 
 
 --Now let's see when do customers return the rentals
@@ -115,20 +111,22 @@ join address using(address_id)
 join city using(city_id)
 join country using(country_id)
 group by 1
-order by 2 desc;
+order by 2 desc
 
 --Top 10 customers per store
 with top_customers as (
 	select store_id
 		, first_name || ' ' || last_name as full_name
+		, email
 		, sum(amount) as total_sales
 		, row_number() over (partition by store_id order by sum(amount) desc) as ranking
 	from customer c
 	join payment p using(customer_id)
-	group by 1, 2
+	group by 1, 2, 3
 	)
 select store_id
 	, full_name
+	, email
 	, total_sales
 from top_customers
 where ranking <= 10;

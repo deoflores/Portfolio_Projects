@@ -20,7 +20,7 @@ In this project, I performed a basic exploratory data analysis (EDA) on the fict
 
 The Sakila database is already quite well-known and usually used for learning and practicing SQL skills. The following figure shows the database's schema:
 
-!(https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/dvd%20schema.png?raw=true)
+![alt text](https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/dvd%20schema.png?raw=true)
 
 
 In total, there are 15 tables in the database:

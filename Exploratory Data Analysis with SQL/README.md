@@ -93,7 +93,7 @@ Late returns make up 41%, still a sizeable chunk. While penalty fees for late re
 
 ![alt text](https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/4.jpg?raw=true)
 
-Looks like business is doing well. Both stores in Australia and Canada have similar performance and rent count and revenue.
+Looks like business is doing well. Both stores in Australia and Canada have similar performance in terms of rent count and revenue.
 
     5. Where are the customers mostly located in?
 

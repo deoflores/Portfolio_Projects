@@ -77,7 +77,7 @@ Let's try to confirm that by looking at rent count and revenue by genre.
 
 ![alt text](https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/2.jpg?raw=true)
 
-Sports is the top rented genre and has also generated the most revenue. Comedy, Foreign, and Drama are also within the top 10 and confirms our observation from the previous query. Future investments might be directed towards these genres to ensure ROI.
+Sports is the top rented genre and has also generated the most revenue. Future investments may be directed towards the top genres to ensure ROI.
 
 Now, let's try to get a more business intelligence look and see customer attitude towards returning rentals.
 

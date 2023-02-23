@@ -107,7 +107,7 @@ A good chunk of customers is located in India and China and accounts for about 2
 
 ![alt text](https://github.com/deoflores/Portfolio_Projects/blob/main/Exploratory%20Data%20Analysis%20with%20SQL/screenshots/6.jpg?raw=true)
 
-Say the company wants to offer rewards to the top 10 customers in each store, we can provide names and emails of these customers so other deparments may start to contact them.
+Say the company wants to offer rewards to the top 10 customers in each store, we can provide names and emails of these customers so other departments may start to contact them.
 ## Conclusion
 
 In this exercise, we have gained insights and potential course of actions for this fictional company.

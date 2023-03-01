@@ -11,6 +11,6 @@ A simple training course I designed to train colleagues on basic analytics using
 
 ### [E-Commerce Voucher Campaign Dashboard](https://github.com/deoflores/Portfolio_Projects/blob/main/Excel%20Dashboards%20with%20Power%20Query/E-Commerce%20Voucher%20Campaign%20Dashboard.xlsx)
 
-This dashboard shows the performance of a sample e-commerce voucher campaign to entice app download. 
+This dashboard was created in MS Excel using Power Query and Power Pivot. This tracks the performance of an e-commerce voucher campaign to entice app download.
 
 ![alt text](https://github.com/deoflores/Portfolio_Projects/blob/main/Excel%20Dashboards%20with%20Power%20Query/images/e-commerce%20dashboard.jpg?raw=true)
